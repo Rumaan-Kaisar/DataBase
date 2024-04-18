@@ -1,0 +1,131 @@
+
+------------    Top Databases for Data Scientists    ------------
+
+1. PostgreSQL (both structured and unstructured data)
+2. MySQL (open-source relational database management system)
+3. Mongo DB (unstructured, JSON like)
+4. SQLite (small scale)
+5. Apache Spark (distributed computing framework: data analytics, machine learning, and stream processing)
+
+
+
+
+--------    following are databases are popular among data scientists    --------
+Several databases are popular among data scientists for various purposes, including storing, querying, and analyzing data. Some of the popular databases used in data science include:
+
+1. **Relational Databases**:
+   - MySQL:     An open-source relational database management system (RDBMS) widely used for web applications and online publishing.
+   - PostgreSQL:        Another open-source RDBMS known for its advanced features, extensibility, and SQL compliance.
+   - SQLite:        A self-contained, serverless, zero-configuration, transactional SQL database engine popular for embedded database applications.
+   - Microsoft SQL Server:      A relational database management system developed by Microsoft.
+
+
+2. **NoSQL Databases**:
+   - MongoDB:     A document-oriented NoSQL database program, using JSON-like documents with optional schemas.
+   - Cassandra:       A distributed NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+   - Redis:       An in-memory data structure store used as a database, cache, and message broker, supporting various data structures such as strings, hashes, lists, sets, and more.
+   - Elasticsearch:       A distributed, RESTful search, and analytics engine designed for horizontal scalability, reliability, and real-time search.
+
+
+3. **Graph Databases**:
+   - Neo4j: A graph database management system that uses graph structures with nodes, edges, and properties to represent and store data.
+
+
+4. **Time Series Databases**:
+   - InfluxDB: An open-source TIME SERIES database designed to handle high write and query loads for metrics and events.
+
+
+5. **Big Data Technologies**:
+   - Apache Hadoop:     A framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+   - Apache Spark:      A unified analytics engine for large-scale data processing, offering APIs in Java, Scala, Python, and R.
+   - Apache Hive:       A data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
+
+
+6. **Cloud-Based Databases**:
+   - Amazon Redshift: A fully managed data warehouse product offered by Amazon Web Services.
+   - Google BigQuery: A fully managed, serverless data warehouse that enables scalable analysis over petabytes of data.
+
+The choice of database depends on factors such as the nature of the data, scalability requirements, performance considerations, and specific use cases in data science projects.
+
+
+
+
+------------    cloud-based databases    ------------
+Among cloud-based databases, Amazon Web Services (AWS) offers several popular options that are widely used by data scientists:
+
+1. **Amazon Aurora**: 
+    Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud. 
+    It offers high performance, scalability, and durability. 
+    Many data scientists use Aurora for OLTP (Online Transaction Processing) and OLAP (Online Analytical Processing) workloads.
+
+2. **Amazon Redshift**: 
+    Amazon Redshift is a fully managed data warehouse service that is designed for analytics workloads. 
+    It is optimized for querying and analyzing large datasets using SQL, 
+        making it popular among data scientists for data warehousing and business intelligence applications.
+
+3. **Amazon DynamoDB**: 
+    Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. 
+    It is commonly used by data scientists for real-time applications, IoT (Internet of Things) data storage, and mobile backends.
+
+4. **Amazon RDS (Relational Database Service)**: 
+    Amazon RDS is a fully managed relational database service that supports multiple database engines, 
+        including MySQL, PostgreSQL, SQL Server, Oracle, and MariaDB. 
+    Data scientists often use RDS for deploying and managing relational databases in the cloud.
+
+5. **Amazon Neptune**: 
+    Amazon Neptune is a fully managed graph database service that is optimized for storing and querying highly connected data. 
+    It is commonly used for social networking applications, recommendation engines, and 
+    network analysis, making it popular among data scientists working with graph data.
+
+These AWS cloud-based databases offer scalability, reliability, and ease of use, 
+    making them attractive options for data scientists who want to leverage cloud infrastructure for their data storage and analysis needs.
+
+
+
+
+----------------    SQL    ----------------
+SQL (Structured Query Language) is a standard programming language designed for managing and manipulating relational databases.
+
+    It is used for:
+            storing, 
+            retrieving, 
+            updating, and 
+            deleting data 
+    in a relational database management system (RDBMS). 
+
+
+    SQL provides a set of commands and syntax for interacting with databases, 
+        allowing users to perform various operations such as creating and modifying database schemas, 
+        querying data from tables, and executing transactions.    
+
+
+
+Following are examples of popular SQL databases:
+
+1. MySQL: 
+    MySQL is an open-source relational database management system (RDBMS) that is widely used for 
+        web applications and other data-driven software. 
+    It is known for its ease of use, scalability, and performance.
+
+2. PostgreSQL: 
+    PostgreSQL is a powerful open-source object-relational database system known for its robust feature set, 
+        extensibility, and standards compliance. 
+    It is suitable for a wide range of applications, from small projects to large enterprise systems.
+
+3. Microsoft SQL Server: 
+    Microsoft SQL Server is a relational database management system developed by Microsoft. 
+    It is widely used in enterprise environments and integrates well with other Microsoft products and technologies.
+
+4. Oracle Database: 
+    Oracle Database is a comprehensive relational database management system developed by Oracle Corporation. 
+    It is known for its reliability, scalability, and advanced features, making it a popular choice for large-scale enterprise applications.
+
+
+Among these databases, 
+        "MySQL" and 
+        "PostgreSQL" 
+    are often considered the most popular choices for general-purpose applications, 
+
+while Microsoft SQL Server and Oracle Database are commonly used in enterprise environments. 
+
+
