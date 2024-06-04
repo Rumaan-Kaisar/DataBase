@@ -343,841 +343,298 @@ while Microsoft SQL Server and Oracle Database are commonly used in enterprise e
 
 
 18.	Database Triggers
+        Introduction to Database Triggers
+        Writing Our First Trigger Part 1 
+        Writing Our First Trigger Part 2
+        Preventing Instagram Self-Follows With Triggers
+        Creating Logger Triggers
+        Managing Triggers And A Warning
+
+
+
+
+22 sections
+383 lectures
+21h 41m total length
+
+
+
+
+Section 1
+        What Is A Database?
+        SQL vs. MySQL
+        Installation: START HERE!
+        IMPORTANT NOTE: Windows Installation Instructions
+        Installation: Windows Instructions
+        VERY IMPORTANT: Mac Installation Notes
+        Installation: Mac Instructions
+
+
+Section 2
+        Showing Databases
+        Creating Databases
+        Dropping and Using Databases
+        Introducing Tables
+        Data Types: The Basics
+        Basic Datatypes Challenge
+        Creating Tables
+        How Do We Know It Worked?
+        Dropping Tables
+        Tables Basics Activity
+        SOLUTION: Tables Basics Activity
+        MySQL Comments
+
+
+Section 3
+        INSERT: The Basics
+        A Quick Preview of SELECT
+        Multi-inserts
+        INSERT Exercise
+        SOLUTION: INSERT Exercise
+        Working With NOT NULL
+        Sidenote: Quotes In MySQL
+        Adding DEFAULT Values
+        Introducing Primary Keys
+        Working With AUTO_INCREMENT
+        Create Table/ Insert Exercise
+        SOLUTION: Insert Exercise
+
+
+Section 4
+        Introducing CRUD
+        Getting Our New "Dataset"
+        Officially Introducing SELECT
+        The WHERE clause
+        Rapid Fire Exercises
+        Rapid Fire Exercises SOLUTION
+        Aliases
+        Using UPDATE
+        A Quick Rule Of Thumb
+        UPDATE Exercise
+        UPDATE Exercise SOLUTION
+        Introducing DELETE
+        DELETE Exercise
+        DELETE Exercise SOLUTION
+
+
+Section 5
+        Introducing the CRUD Challenge
+        CRUD Challenge Solution: Creating
+        CRUD Challenge Solution: Reading
+        CRUD Challenge Solution: Updating
+        CRUD Challenge Solution: Deleting
+
+
+Section 6
+        The World Of String Functions
+        Loading Our Books Data
+        CONCAT
+        SUBSTRING
+        Combining String Functions
+        Sidenote: SQL Formatting
+        REPLACE
+        REVERSE
+        CHAR_LENGTH
+        UPPER & LOWER
+        Other String Functions
+        String Functions Exercise
+        String Functions Exerise SOLUTION
+
+
+Section 7
+        Adding Some New Books
+        DISTINCT
+        ORDER BY
+        More On ORDER BY
+        LIMIT
+        LIKE
+        Escaping Wildcards
+        Refining Selections Exercise
+        Refining Selections Exercise SOLUTION
+
+
+Section 8
+        Count Basics
+        GROUP BY
+        MIN and MAX Basics
+        Subqueries
+        Grouping By Multiple Columns
+        MIN and MAX With GROUP BY
+        SUM
+        AVG
+        Aggregate Functions Docs
+        Agg Functions Exercise
+        Agg Functions Exercise SOLUTION
+
+
+Section 9
+        Surveying Other Data Types
+        CHAR vs. VARCHAR
+        INT, TINYINT, BIGINT, etc.
+        DECIMAL
+        FLOAT & DOUBLE
+        DATE and TIME
+        Working With Dates
+        CURDATE, CURTIME, & NOW
+        Date Functions
+        Time Functions
+        Formatting Dates
+        Date Math
+        TIMESTAMPS
+        DEFAULT & ON UPDATE TIMESTAMPS
+        Data Types Exercise
+        Data Types Exercise SOLUTION
+
+
+Section 10
+        Not Equal
+        NOT LIKE
+        Greater Than
+        Less Than Or Equal To
+        Logical AND
+        Logical OR
+        Between
+        Comparing Dates
+        The IN Operator
+        CASE
+        IS NULL
+        Exercise
+        Exercise SOLUTION
+
+
+Section 11
+        UNIQUE Constraint
+        CHECK Constraints
+        Named Constraints
+        Multiple Column Constraints
+        ALTER TABLE: Adding Columns
+        ALTER TABLE: Dropping Columns
+        ALTER TABLE: Renaming
+        ALTER TABLE: Modifying Columns
+        ALTER TABLE: Constraints
+
+
+Section 12
+        Data is Messy
+        Relationships Basics
+        One to Many Relationship
+        12:33
+        Working with FOREIGN KEY
+        Cross Joins
+        Inner Joins
+        Inner Joins With Group By
+        Left Join
+        Left Join With Group By
+        Right Join
+        On Delete Cascade
+        Joins Exercise
+        EXERCISE STARTER DATA
+        Joins Exercise SOLUTION
+
+
+Section 13
+        Many to Many Basics
+        Creating Our Many To Many Tables
+        TV Series Challenge #1
+        TV Series Challenge #2
+        TV Series Challenge #3
+        TV Series Challenge #4
+        TV Series Challenge #5
+        TV Series Challenge #6
+        TV Series Challenge #7
+
+
+Section 14
+        Introducing Views
+        Updateable Views
+        Replacing/Altering Views
+        HAVING clause
+        WITH ROLLUP
+        SQL Modes Basics
+        STRICT_TRANS_TABLES
+        More Modes
+        Important Note (please read)
+        Introducing Window Functions
+        Using OVER()
+        PARTITION BY
+        ORDER BY with Windows
+        RANK()
+        DENSE_RANK, & ROW_NUMBER()
+        NTILE()
+        FIRST_VALUE
+        LEAD and LAG
+
+
+Section 15
+        IMPORTANT NOTE ABOUT THIS SECTION!
+        Introducing Instagram Clone
+        Users Schema
+        Photos Schema
+        Comments Schema
+        Likes Schema
+        Followers Schema
+        Note!
+        3 Approaches for Hashtags
+        Implementing Hashtags Table
+        Complete Instagram Schema
+
+
+Section 16
+        Getting Lots of Instagram Data
+        Instagram Challenge #1
+        Instagram Challenge #2
+        Instagram Challenge #3
+        Instagram Challenge #4
+        Instagram Challenge #5
+        Instagram Challenge #6
+        Instagram Challenge #7
+        Additional SQL Resources
+        IMPORTANT NOTE: Using a Local Coding Environment Instead of Cloud9
+
+
+Section 17
+        MySQL and Other Languages
+        BUT WHAT ABOUT PHP
+        Introduction to JOIN US app
+        REMINDER: NodeJS Installation
+        5 Minute NodeJS Crash Course
+        IMPORTANT NOTE: About the Faker Package
+        Introduction to NPM and Faker
+        Introducing the MySQL Package
+        IMPORTANT NOTE: About the MySQL Package and Connecting Node to MySQL
+        REMINDER: How to Start the MySQL Command Line Locally (instead of Cloud9)
+        Connecting Node to MySQL
+        Creating Our Users Table
+        Selecting Using Node
+        Inserting Using Node
+        Some MySQL/Node Magic
+        Bulk Inserting 500 Users - Finally!
+        500 Users Exercises
+        500 Users Exercises Solutions
+        REMINDER: Set Up A Local Coding Environment Instead of Cloud9
+
+
+Section 18
+        Introducing Express
+        NPM Init and package.json files
+        IMPORTANT NOTE: About Previewing Our Node Web App in the Browser
+        Our First Simple Web App
+        Adding Multiple Routes
+        Connecting Express and MySQL
+        Adding EJS Templates
+        Connecting The Form
+        Styling Part 1
+        Styling Part 2
+        NOTE: Use MySQL Locally Instead of Cloud9
+
+
+Section 19
+        Introduction to Database Triggers
+        Writing Our First Trigger Part 1
+        Writing Our First Trigger Part 2
+        NOTE: About the Next Lecture
+        Preventing Instagram Self-Follows With Triggers
+        Creating Logger Triggers
+        Managing Triggers And A Warning
 
-
-
-
-
-
-22 sections • 383 lectures • 21h 41m total length
-03:08
-Join The Community!
-00:25
-01:08
-01:25
-Getting The Course Code
-01:39
-08:23
-
-
-
-
-Section Introduction
-01:02
-What Is A Database?
-07:16
-SQL vs. MySQL
-05:50
-Installation: START HERE!
-05:17
-IMPORTANT NOTE: Windows Installation Instructions
-00:38
-Installation: Windows Instructions
-09:13
-VERY IMPORTANT: Mac Installation Notes
-02:16
-Installation: Mac Instructions
-11:34
-
-
-
-
-Section Introduction
-01:09
-Showing Databases
-04:15
-CODE: Showing Databases
-00:01
-Creating Databases
-04:55
-CODE: Creating Databases
-00:03
-Dropping and Using Databases
-05:32
-CODE: Dropping and Using Databases
-00:02
-Introducing Tables
-05:18
-Data Types: The Basics
-07:38
-Basic Datatypes Challenge
-02:35
-CODE: Basic Datatypes Challenge
-00:01
-Creating Tables
-04:57
-CODE: Creating Tables
-00:04
-How Do We Know It Worked?
-04:33
-CODE: How Do We Know It Worked?
-00:01
-Dropping Tables
-02:10
-CODE: Dropping Tables
-00:03
-Tables Basics Activity
-02:36
-SOLUTION: Tables Basics Activity
-00:06
-MySQL Comments
-03:12
-
-
-
-
-Section Introduction
-01:40
-INSERT: The Basics
-03:44
-CODE: INSERT: The Basics
-00:09
-A Quick Preview of SELECT
-01:44
-CODE: A Quick Preview of SELECT
-00:02
-Multi-inserts
-04:48
-CODE: Multi-inserts
-00:07
-INSERT Exercise
-05:27
-SOLUTION: INSERT Exercise
-00:12
-Working With NOT NULL
-05:40
-CODE: Working With NOT NULL
-00:03
-Sidenote: Quotes In MySQL
-04:13
-Adding DEFAULT Values
-06:31
-CODE: Adding DEFAULT Values
-00:15
-Introducing Primary Keys
-04:57
-CODE: Introducing Primary Keys
-00:09
-Working With AUTO_INCREMENT
-07:13
-CODE: Working With AUTO_INCREMENT
-00:04
-Create Table/ Insert Exercise
-07:19
-SOLUTION: Insert Exercise
-00:18
-
-
-
-
-Section Introduction
-01:30
-Introducing CRUD
-01:51
-Getting Our New "Dataset"
-01:50
-CODE
-00:15
-Officially Introducing SELECT
-03:13
-CODE
-00:06
-The WHERE clause
-03:32
-CODE
-00:04
-Rapid Fire Exercises
-01:25
-Rapid Fire Exercises SOLUTION
-02:55
-SOLUTION CODE
-00:06
-Aliases
-02:13
-CODE
-00:06
-Using UPDATE
-05:24
-CODE
-00:04
-A Quick Rule Of Thumb
-01:44
-UPDATE Exercise
-01:04
-UPDATE Exercise SOLUTION
-03:01
-SOLUTION CODE
-00:15
-Introducing DELETE
-02:37
-CODE
-00:05
-DELETE Exercise
-00:58
-DELETE Exercise SOLUTION
-02:15
-SOLUTION CODE
-00:07
-
-
-
-
-Section Introduction
-01:52
-Introducing the CRUD Challenge
-05:11
-CRUD Challenge Solution: Creating
-08:07
-SOLUTION CODE
-00:20
-CRUD Challenge Solution: Reading
-01:42
-SOLUTION CODE
-00:04
-CRUD Challenge Solution: Updating
-03:24
-SOLUTION CODE
-00:07
-CRUD Challenge Solution: Deleting
-02:50
-SOLUTION CODE
-00:08
-
-
-
-
-Section Introduction
-02:04
-The World Of String Functions
-01:52
-Loading Our Books Data
-05:25
-CODE
-00:42
-CONCAT
-08:50
-CODE
-00:04
-SUBSTRING
-07:31
-CODE
-00:07
-Combining String Functions
-06:49
-CODE
-00:02
-Sidenote: SQL Formatting
-04:26
-REPLACE
-05:43
-CODE
-00:08
-REVERSE
-03:30
-CODE
-00:04
-CHAR_LENGTH
-02:50
-CODE
-00:06
-UPPER & LOWER
-03:48
-CODE
-00:06
-Other String Functions
-06:20
-CODE
-00:04
-String Functions Exercise
-03:43
-String Functions Exerise SOLUTION
-11:32
-SOLUTION CODE
-00:17
-
-
-
-
-Section Introduction
-00:35
-Adding Some New Books
-01:26
-CODE
-00:08
-DISTINCT
-06:12
-CODE
-00:06
-ORDER BY
-06:37
-CODE
-00:04
-More On ORDER BY
-06:19
-CODE
-00:05
-LIMIT
-05:39
-CODE
-00:32
-LIKE
-07:14
-CODE
-00:08
-Escaping Wildcards
-02:03
-CODE
-00:07
-Refining Selections Exercise
-03:05
-Refining Selections Exercise SOLUTION
-14:40
-SOLUTION CODE
-00:21
-
-
-
-
-Section Introduction
-03:56
-Count Basics
-07:33
-CODE
-00:03
-GROUP BY
-10:11
-CODE
-00:05
-MIN and MAX Basics
-03:45
-CODE
-00:02
-Subqueries
-06:25
-CODE
-00:06
-Grouping By Multiple Columns
-04:47
-CODE
-00:05
-MIN and MAX With GROUP BY
-05:50
-CODE
-00:13
-SUM
-03:45
-CODE
-00:03
-AVG
-02:23
-CODE
-00:04
-Aggregate Functions Docs
-01:17
-Agg Functions Exercise
-02:51
-Agg Functions Exercise SOLUTION
-12:35
-SOLUTION CODE
-00:17
-
-
-
-
-Section Introduction
-01:56
-Surveying Other Data Types
-02:52
-CHAR vs. VARCHAR
-12:05
-INT, TINYINT, BIGINT, etc.
-05:01
-DECIMAL
-06:55
-FLOAT & DOUBLE
-05:31
-DATE and TIME
-04:37
-Working With Dates
-07:39
-CODE
-00:12
-CURDATE, CURTIME, & NOW
-04:15
-CODE
-00:04
-Date Functions
-06:03
-CODE
-00:03
-Time Functions
-02:03
-CODE
-00:03
-Formatting Dates
-09:13
-CODE
-00:05
-Date Math
-10:42
-TIMESTAMPS
-03:28
-DEFAULT & ON UPDATE TIMESTAMPS
-06:58
-CODE
-00:05
-Data Types Exercise
-03:36
-Data Types Exercise SOLUTION
-13:16
-SOLUTION CODE
-00:36
-
-
-
-
-Section Introduction
-02:44
-Not Equal
-02:56
-CODE
-00:01
-NOT LIKE
-03:21
-CODE
-00:02
-Greater Than
-03:56
-CODE
-00:03
-Less Than Or Equal To
-02:57
-CODE
-00:04
-Logical AND
-08:53
-CODE
-00:07
-Logical OR
-05:38
-CODE
-00:11
-Between
-04:47
-CODE
-00:05
-Comparing Dates
-08:15
-CODE
-00:05
-The IN Operator
-08:28
-CODE
-00:12
-CASE
-08:46
-CODE
-00:20
-IS NULL
-02:03
-Exercise
-03:25
-Exercise SOLUTION
-15:22
-SOLUTION CODE
-00:32
-UNIQUE Constraint
-03:43
-CODE
-00:08
-CHECK Constraints
-04:58
-CODE
-00:04
-Named Constraints
-04:13
-CODE
-00:05
-Multiple Column Constraints
-05:20
-CODE
-00:07
-ALTER TABLE: Adding Columns
-05:38
-CODE
-00:04
-ALTER TABLE: Dropping Columns
-01:54
-CODE
-00:01
-ALTER TABLE: Renaming
-03:43
-CODE
-00:04
-ALTER TABLE: Modifying Columns
-03:55
-CODE
-00:03
-ALTER TABLE: Constraints
-04:12
-CODE
-00:03
-
-
-
-
-Section Introduction
-01:57
-Data is Messy
-10:28
-Relationships Basics
-04:36
-One to Many Relationship
-12:33
-Working with FOREIGN KEY
-11:07
-CODE
-00:22
-Cross Joins
-07:59
-CODE
-00:09
-Inner Joins
-08:52
-CODE
-00:10
-Inner Joins With Group By
-04:53
-CODE
-00:05
-Left Join
-07:05
-CODE
-00:07
-Left Join With Group By
-03:35
-CODE
-00:05
-Right Join
-04:28
-CODE
-00:03
-On Delete Cascade
-05:36
-CODE
-00:09
-Joins Exercise
-03:01
-EXERCISE STARTER DATA
-00:15
-Joins Exercise SOLUTION
-10:42
-SOLUTION CODE
-00:32
-
-
-
-
-Section Introduction
-01:54
-Many to Many Basics
-10:48
-Creating Our Many To Many Tables
-06:43
-CODE
-01:24
-TV Series Challenge #1
-03:35
-CODE
-00:03
-TV Series Challenge #2
-03:24
-CODE
-00:05
-TV Series Challenge #3
-03:38
-CODE
-00:03
-TV Series Challenge #4
-03:34
-CODE
-00:09
-TV Series Challenge #5
-02:25
-CODE
-00:04
-TV Series Challenge #6
-09:10
-CODE
-00:23
-TV Series Challenge #7
-05:27
-CODE
-00:18
-Introducing Views
-06:31
-CODE
-00:20
-Updateable Views
-05:42
-Replacing/Altering Views
-03:26
-CODE
-00:09
-HAVING clause
-04:28
-CODE
-00:03
-WITH ROLLUP
-08:17
-CODE
-00:08
-SQL Modes Basics
-05:51
-CODE
-00:05
-STRICT_TRANS_TABLES
-04:25
-More Modes
-09:49
-Important Note (please read)
-00:22
-Introducing Window Functions
-06:28
-Using OVER()
-08:15
-CODE
-00:23
-PARTITION BY
-06:53
-CODE
-00:11
-ORDER BY with Windows
-06:41
-CODE
-00:09
-RANK()
-05:53
-DENSE_RANK, & ROW_NUMBER()
-05:14
-CODE
-00:12
-NTILE()
-03:36
-CODE
-00:05
-FIRST_VALUE
-04:04
-CODE
-00:05
-LEAD and LAG
-05:51
-CODE
-00:07
-
-
-
-
-Section Introduction
-01:19
-IMPORTANT NOTE ABOUT THIS SECTION!
-01:52
-Introducing Instagram Clone
-08:31
-Users Schema
-06:08
-CODE
-00:04
-Photos Schema
-06:37
-CODE
-00:06
-Comments Schema
-06:39
-CODE
-00:08
-Likes Schema
-07:41
-CODE
-00:06
-Followers Schema
-07:20
-CODE
-00:06
-Note!
-00:14
-3 Approaches for Hashtags
-10:34
-Implementing Hashtags Table
-05:25
-CODE
-00:09
-Complete Instagram Schema
-00:40
-
-
-
-
-Section Introduction
-01:41
-Getting Lots of Instagram Data
-08:30
-CODE
-00:05
-Instagram Challenge #1
-04:52
-CODE
-00:03
-Instagram Challenge #2
-06:41
-CODE
-00:04
-Instagram Challenge #3
-07:22
-CODE
-00:04
-Instagram Challenge #4
-07:05
-CODE
-00:09
-Instagram Challenge #5
-03:13
-CODE
-00:02
-Instagram Challenge #6
-05:29
-CODE
-00:06
-Instagram Challenge #7
-05:14
-CODE
-00:06
-Additional SQL Resources
-00:41
-IMPORTANT NOTE: Using a Local Coding Environment Instead of Cloud9
-01:51
-IMPORTANT NOTE: Downloading Source Code
-00:09
-
-
-
-
-Section Introduction
-01:36
-MySQL and Other Languages
-08:59
-BUT WHAT ABOUT PHP
-07:34
-Introduction to JOIN US app
-08:00
-REMINDER: NodeJS Installation
-00:31
-5 Minute NodeJS Crash Course
-06:12
-CODE: 5 Minute Node Crash Course
-00:05
-IMPORTANT NOTE: About the Faker Package
-01:37
-Introduction to NPM and Faker
-09:11
-UPDATED CODE: Introduction to NPM and Faker
-00:36
-Introducing the MySQL Package
-04:53
-IMPORTANT NOTE: About the MySQL Package and Connecting Node to MySQL
-01:38
-REMINDER: How to Start the MySQL Command Line Locally (instead of Cloud9)
-00:58
-Connecting Node to MySQL
-12:46
-CODE: Connecting Node to MySQL
-01:06
-Creating Our Users Table
-06:54
-CODE: Creating Our Users Table
-00:04
-Selecting Using Node
-06:15
-CODE: Selecting Using Node
-00:17
-Inserting Using Node
-11:31
-CODE: Inserting Using Node
-00:15
-Some MySQL/Node Magic
-07:41
-Bulk Inserting 500 Users - Finally!
-08:40
-CODE: Bulk Inserting 500 Users
-00:19
-500 Users Exercises
-02:30
-500 Users Exercises Solutions
-11:55
-CODE: 500 Users Exercises Solutions
-00:24
-REMINDER: Set Up A Local Coding Environment Instead of Cloud9
-00:13
-
-
-
-
-Section Introduction
-01:52
-Join Us Completed CODE
-00:05
-Introducing Express
-05:40
-NPM Init and package.json files
-06:38
-IMPORTANT NOTE: About Previewing Our Node Web App in the Browser
-00:37
-Our First Simple Web App
-16:33
-CODE: Our First Simple Web App
-00:10
-Adding Multiple Routes
-09:56
-CODE: Adding Multiple Routes
-00:11
-REMINDER: Use the Updated Connection Code
-00:14
-Connecting Express and MySQL
-11:08
-CODE: Connecting Express and MySQL
-00:10
-Adding EJS Templates
-16:02
-CODE: Adding EJS Templates
-00:17
-Connecting The Form
-18:32
-CODE: Connecting the Form
-00:06
-Styling Part 1
-08:24
-CODE: HTML AND CSS FILES
-00:04
-Styling Part 2
-08:16
-NOTE: Use MySQL Locally Instead of Cloud9
-00:10
-Introduction to Database Triggers
-06:10
-Writing Our First Trigger Part 1
-07:27
-Writing Our First Trigger Part 2
-11:36
-NOTE: About the Next Lecture
-00:14
-Preventing Instagram Self-Follows With Triggers
-08:16
-Creating Logger Triggers
-10:17
-Managing Triggers And A Warning
-06:12
-Requirements
-No Database, SQL, or MySQL experience needed! Complete beginners to MySQL are welcome.
-All you need is a working computer for this course; PC, Mac, and Linux users are all welcome.
-No previous programming language experience required, but it won't hurt :)
 
