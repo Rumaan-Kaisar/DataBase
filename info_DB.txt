@@ -518,7 +518,6 @@ Section 12
         Data is Messy
         Relationships Basics
         One to Many Relationship
-        12:33
         Working with FOREIGN KEY
         Cross Joins
         Inner Joins
